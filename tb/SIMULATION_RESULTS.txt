@@ -1,0 +1,147 @@
+# NOTE: to reduce the simulation time, the period of the one_sec timer is modified to 400 ns instead of 1 sec ONLY during simulation (handled automatically using if-generate)
+-----------------------------------------TEST START-----------------------------------------
+at 270 ns: current state is DOOR_OPEN  at floor 0
+             SUCCESSFUL DOOR_OPEN  with 800 ns duration at floor 0
+at 1070 ns: current state is IDLE       at floor 0
+                                     TESTCASE SUCCESSFUL
+------------------------------------------TEST END------------------------------------------
+-----------------------------------------TEST START-----------------------------------------
+at 1110 ns: current state is GOING_UP   at floor 0
+             SUCCESSFUL GOING_UP   with 800 ns duration at floor 0
+at 1910 ns: current state is GOING_UP   at floor 1
+             SUCCESSFUL GOING_UP   with 800 ns duration at floor 1
+at 2710 ns: current state is GOING_UP   at floor 2
+             SUCCESSFUL GOING_UP   with 800 ns duration at floor 2
+at 3510 ns: current state is GOING_UP   at floor 3
+             SUCCESSFUL GOING_UP   with 800 ns duration at floor 3
+at 4310 ns: current state is GOING_UP   at floor 4
+             SUCCESSFUL GOING_UP   with 800 ns duration at floor 4
+at 5110 ns: current state is GOING_UP   at floor 5
+             SUCCESSFUL GOING_UP   with 800 ns duration at floor 5
+at 5910 ns: current state is DOOR_OPEN  at floor 6
+             SUCCESSFUL DOOR_OPEN  with 800 ns duration at floor 6
+at 6710 ns: current state is IDLE       at floor 6
+                                     TESTCASE SUCCESSFUL
+------------------------------------------TEST END------------------------------------------
+-----------------------------------------TEST START-----------------------------------------
+at 6750 ns: current state is GOING_UP   at floor 6
+             SUCCESSFUL GOING_UP   with 800 ns duration at floor 6
+at 7550 ns: current state is GOING_UP   at floor 7
+             SUCCESSFUL GOING_UP   with 800 ns duration at floor 7
+at 8350 ns: current state is GOING_UP   at floor 8
+             SUCCESSFUL GOING_UP   with 800 ns duration at floor 8
+at 9150 ns: current state is DOOR_OPEN  at floor 9
+             SUCCESSFUL DOOR_OPEN  with 800 ns duration at floor 9
+at 9950 ns: current state is IDLE       at floor 9
+                                     TESTCASE SUCCESSFUL
+------------------------------------------TEST END------------------------------------------
+-----------------------------------------TEST START-----------------------------------------
+at 9990 ns: current state is GOING_DOWN at floor 9
+             SUCCESSFUL GOING_DOWN with 800 ns duration at floor 9
+at 10790 ns: current state is GOING_DOWN at floor 8
+             SUCCESSFUL GOING_DOWN with 800 ns duration at floor 8
+at 11590 ns: current state is GOING_DOWN at floor 7
+             SUCCESSFUL GOING_DOWN with 800 ns duration at floor 7
+at 12390 ns: current state is GOING_DOWN at floor 6
+             SUCCESSFUL GOING_DOWN with 800 ns duration at floor 6
+at 13190 ns: current state is GOING_DOWN at floor 5
+             SUCCESSFUL GOING_DOWN with 800 ns duration at floor 5
+at 13990 ns: current state is GOING_DOWN at floor 4
+             SUCCESSFUL GOING_DOWN with 800 ns duration at floor 4
+at 14790 ns: current state is GOING_DOWN at floor 3
+             SUCCESSFUL GOING_DOWN with 800 ns duration at floor 3
+at 15590 ns: current state is DOOR_OPEN  at floor 2
+             SUCCESSFUL DOOR_OPEN  with 800 ns duration at floor 2
+at 16390 ns: current state is IDLE       at floor 2
+                                     TESTCASE SUCCESSFUL
+------------------------------------------TEST END------------------------------------------
+-----------------------------------------TEST START-----------------------------------------
+at 16430 ns: current state is GOING_DOWN at floor 2
+             SUCCESSFUL GOING_DOWN with 800 ns duration at floor 2
+at 17230 ns: current state is GOING_DOWN at floor 1
+             SUCCESSFUL GOING_DOWN with 800 ns duration at floor 1
+at 18030 ns: current state is DOOR_OPEN  at floor 0
+             SUCCESSFUL DOOR_OPEN  with 800 ns duration at floor 0
+at 18830 ns: current state is IDLE       at floor 0
+                                     TESTCASE SUCCESSFUL
+------------------------------------------TEST END------------------------------------------
+-----------------------------------------TEST START-----------------------------------------
+at 18870 ns: current state is GOING_UP   at floor 0
+             SUCCESSFUL GOING_UP   with 800 ns duration at floor 0
+at 19670 ns: current state is GOING_UP   at floor 1
+             SUCCESSFUL GOING_UP   with 800 ns duration at floor 1
+at 20470 ns: current state is GOING_UP   at floor 2
+             SUCCESSFUL GOING_UP   with 800 ns duration at floor 2
+at 21270 ns: current state is GOING_UP   at floor 3
+             SUCCESSFUL GOING_UP   with 800 ns duration at floor 3
+at 22070 ns: current state is DOOR_OPEN  at floor 4
+             SUCCESSFUL DOOR_OPEN  with 800 ns duration at floor 4
+at 22870 ns: current state is IDLE       at floor 4
+                                     TESTCASE SUCCESSFUL
+------------------------------------------TEST END------------------------------------------
+-----------------------------------------TEST START-----------------------------------------
+at 22910 ns: current state is GOING_UP   at floor 4
+             SUCCESSFUL GOING_UP   with 800 ns duration at floor 4
+at 23710 ns: current state is GOING_UP   at floor 5
+             SUCCESSFUL GOING_UP   with 800 ns duration at floor 5
+at 24510 ns: current state is DOOR_OPEN  at floor 6
+             SUCCESSFUL DOOR_OPEN  with 800 ns duration at floor 6
+at 25310 ns: current state is GOING_DOWN at floor 6
+             SUCCESSFUL GOING_DOWN with 800 ns duration at floor 6
+at 26110 ns: current state is GOING_DOWN at floor 5
+             SUCCESSFUL GOING_DOWN with 800 ns duration at floor 5
+at 26910 ns: current state is GOING_DOWN at floor 4
+             SUCCESSFUL GOING_DOWN with 800 ns duration at floor 4
+at 27710 ns: current state is GOING_DOWN at floor 3
+             SUCCESSFUL GOING_DOWN with 800 ns duration at floor 3
+at 28510 ns: current state is DOOR_OPEN  at floor 2
+             SUCCESSFUL DOOR_OPEN  with 800 ns duration at floor 2
+at 29310 ns: current state is IDLE       at floor 2
+                                     TESTCASE SUCCESSFUL
+------------------------------------------TEST END------------------------------------------
+-----------------------------------------TEST START-----------------------------------------
+at 29350 ns: current state is DOOR_OPEN  at floor 2
+             SUCCESSFUL DOOR_OPEN  with 800 ns duration at floor 2
+at 30150 ns: current state is GOING_DOWN at floor 2
+             SUCCESSFUL GOING_DOWN with 800 ns duration at floor 2
+at 30950 ns: current state is DOOR_OPEN  at floor 1
+             SUCCESSFUL DOOR_OPEN  with 800 ns duration at floor 1
+at 31750 ns: current state is GOING_DOWN at floor 1
+             SUCCESSFUL GOING_DOWN with 800 ns duration at floor 1
+at 32550 ns: current state is DOOR_OPEN  at floor 0
+             SUCCESSFUL DOOR_OPEN  with 800 ns duration at floor 0
+at 33350 ns: current state is GOING_UP   at floor 0
+             SUCCESSFUL GOING_UP   with 800 ns duration at floor 0
+at 34150 ns: current state is GOING_UP   at floor 1
+             SUCCESSFUL GOING_UP   with 800 ns duration at floor 1
+at 34950 ns: current state is GOING_UP   at floor 2
+             SUCCESSFUL GOING_UP   with 800 ns duration at floor 2
+at 35750 ns: current state is DOOR_OPEN  at floor 3
+             SUCCESSFUL DOOR_OPEN  with 800 ns duration at floor 3
+at 36550 ns: current state is GOING_UP   at floor 3
+             SUCCESSFUL GOING_UP   with 800 ns duration at floor 3
+at 37350 ns: current state is DOOR_OPEN  at floor 4
+             SUCCESSFUL DOOR_OPEN  with 800 ns duration at floor 4
+at 38150 ns: current state is GOING_UP   at floor 4
+             SUCCESSFUL GOING_UP   with 800 ns duration at floor 4
+at 38950 ns: current state is DOOR_OPEN  at floor 5
+             SUCCESSFUL DOOR_OPEN  with 800 ns duration at floor 5
+at 39750 ns: current state is GOING_UP   at floor 5
+             SUCCESSFUL GOING_UP   with 800 ns duration at floor 5
+at 40550 ns: current state is DOOR_OPEN  at floor 6
+             SUCCESSFUL DOOR_OPEN  with 800 ns duration at floor 6
+at 41350 ns: current state is GOING_UP   at floor 6
+             SUCCESSFUL GOING_UP   with 800 ns duration at floor 6
+at 42150 ns: current state is DOOR_OPEN  at floor 7
+             SUCCESSFUL DOOR_OPEN  with 800 ns duration at floor 7
+at 42950 ns: current state is GOING_UP   at floor 7
+             SUCCESSFUL GOING_UP   with 800 ns duration at floor 7
+at 43750 ns: current state is DOOR_OPEN  at floor 8
+             SUCCESSFUL DOOR_OPEN  with 800 ns duration at floor 8
+at 44550 ns: current state is GOING_UP   at floor 8
+             SUCCESSFUL GOING_UP   with 800 ns duration at floor 8
+at 45350 ns: current state is DOOR_OPEN  at floor 9
+             SUCCESSFUL DOOR_OPEN  with 800 ns duration at floor 9
+at 46150 ns: current state is IDLE       at floor 9
+                                     TESTCASE SUCCESSFUL
+------------------------------------------TEST END------------------------------------------
