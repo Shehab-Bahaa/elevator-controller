@@ -1,5 +1,6 @@
 # elevator-controller
 This repository is a documentation of the RTL Design, Verification, and FPGA Implementation of an Elevator Controller project, which was part of my internship at PyramidTech during Summer 2022. The FPGA imprementation was done using Terasic DE0-CV development board and Intel Quartus Prime.  
+
 The project is divided into three parts:  
   - Part I is the RTL Design of the elevator using VHDL  
   - Part II is the verification of the design using self-checking testbenches and simulation  
