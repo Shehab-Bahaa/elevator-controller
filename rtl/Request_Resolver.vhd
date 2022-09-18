@@ -90,7 +90,7 @@ BEGIN
     requests <= reg_b OR ('0' & reg_up_request) OR (reg_dn_request & '0');
     -- filtering the up requests and asserting flag if there are up requests
     temp_floor_status <= NOT (std_logic_vector(unsigned(floor_status & '0') - 1));
-    up_requests <= requests AND temp_floor_status (N downto 1);                                                                          -- test corners
+    up_requests <= requests AND temp_floor_status (N downto 1);
     up_requests_flag <= '1' when up_requests > (N downto 1 => '0')  else
                         '0';
 
@@ -105,7 +105,7 @@ BEGIN
                                 '0';
     
     -- assuming a direction if the elevator in the ideal state
-    assumed_up_status <= '1' when floor_status >= STD_LOGIC_VECTOR(to_unsigned(natural(ceil(real(N/2))), N)) else                                                           -- modify
+    assumed_up_status <= '1' when floor_status >= STD_LOGIC_VECTOR(to_unsigned(natural(ceil(real(N/2))), N)) else 
                          '0';
                          
     up_flag <=  (reg_up_status AND up_requests_flag) OR 
