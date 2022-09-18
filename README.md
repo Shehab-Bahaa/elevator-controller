@@ -9,5 +9,5 @@ The repository includes the following:
   - RTL directory containing the design files (.vhd)  
   - Quartus directory containing Intel Quartus Prime files (.qsf, .qpf, and .sdc)  
   - Testbench directory containing the testbench files (.vhd), simulation script (.txt), and inputs and outputs files (.txt)  
-  - In the main directory, there are the FPGA testing video (.mp4) and the documentation file (.pdf)  
+  - In the main directory, there are the FPGA testing video (.mp4) and the documentation report (.pdf)  
 
